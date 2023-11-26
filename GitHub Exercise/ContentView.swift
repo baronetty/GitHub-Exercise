@@ -12,12 +12,12 @@ struct ContentView: View {
         VStack {
             Image(systemName: "1.circle")
                 .resizable().scaledToFit()
-            Text("V. 1.0")
+            Text("V. 1.1")
                 .font(.largeTitle)
                 .fontWeight(.black)
         }
         .padding()
-        .foregroundStyle(.red)
+        .foregroundStyle(.mint)
     }
 }
 
